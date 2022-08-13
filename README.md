@@ -1,2 +1,30 @@
 # -ABIChallenge_fernandocalle
+
 AB InBev MLOps Challenge v7
+
+1. **Architecture**
+Draw a diagram and upload it into the private repo to deploy a ML Model into production on any
+public cloud
+
+2. **Collaboration**
+On the private repo build the following workflow, notice you might use dummy code.*
+
+3. **Automation**
+Configure Sonar Cloud https://sonarcloud.io into the private repo and run some test to validate
+anything on the next topic.**
+
+4. **ML Model Deployment**
+Expose any already trained machine learning model as an API, please keep working on the
+same private repo.***
+
+Your API might meet the following requirements:
+- Should be written in Python following OOP standards.
+- Should contain inline documentation.
+- You should be running some tests using Sonar Cloud.
+- The API might be able to make an estimation one by one or in a batch.
+- The code might contain a Docker compose file to run the project locally.
+- You might be able to store each estimation in any database.
+
+5. **Presentation**
+Point out the key points of your process, main challenges, and findings on a presentation or
+document.
