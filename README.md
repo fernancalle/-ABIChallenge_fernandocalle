@@ -28,3 +28,18 @@ Your API might meet the following requirements:
 5. **Presentation**
 Point out the key points of your process, main challenges, and findings on a presentation or
 document.
+
+Notes:
+* You might like to use git graphical tools to check this point before.
+** Try the free trial for private repos scan.
+*** You can use any of the following models or any other you already have (remember NOT to focus on
+the training but on the deployment of the model as an API that receive an input and respond with the
+model output)
+
+Models: 
+
+Titanic - https://www.kaggle.com/startupsci/titanic-data-science-solutions
+DS London - https://www.kaggle.com/kasatkinvl/ds-london-sklearn
+Online Retail - https://www.kaggle.com/gamzeakman/rfm-for-customer-segmentation
+Iris - https://www.kaggle.com/caesarmario/iris-classification-using-various-ml-models
+Fraud - https://www.kaggle.com/janiobachmann/credit-fraud-dealing-with-imbalanced-datasets
