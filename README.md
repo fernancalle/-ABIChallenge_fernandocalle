@@ -39,7 +39,11 @@ model output)
 Models: 
 
 Titanic - https://www.kaggle.com/startupsci/titanic-data-science-solutions
+
 DS London - https://www.kaggle.com/kasatkinvl/ds-london-sklearn
+
 Online Retail - https://www.kaggle.com/gamzeakman/rfm-for-customer-segmentation
+
 Iris - https://www.kaggle.com/caesarmario/iris-classification-using-various-ml-models
+
 Fraud - https://www.kaggle.com/janiobachmann/credit-fraud-dealing-with-imbalanced-datasets
