@@ -2,7 +2,4 @@
 # coding: utf-8
 
 # In[1]:
-
-
-print("Hello World and Mars!")
-
+print("Hello World and Mars and Jupiter!")
