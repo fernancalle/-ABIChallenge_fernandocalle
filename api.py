@@ -1,14 +1,17 @@
-# Dependencies
+# libraries
 from flask import Flask, request, jsonify
 import joblib
 import traceback
 import pandas as pd
 import sys
 
-# Your API definition
+# Definicion del API
 app = Flask(__name__)
 
+# Ruta para acceder API con metodo POST.
 @app.route('/predict', methods=['POST'])
+
+#cargar modelo predictivo
 def predict():
     if lr:
         try:
@@ -28,15 +31,16 @@ def predict():
         print ('Train the model first')
         return ('No model here to use')
 
+#boilerplate code
 if __name__ == '__main__':
     try:
-        port = int(sys.argv[1]) # This is for a command-line input
+        port = int(sys.argv[1])
     except:
-        port = 12345 # If you don't provide any port the port will be set to 12345
+        port = 12345 # codigo port por el cual accederiamos al API
 
-    lr = joblib.load("model.pkl") # Load "model.pkl"
+    lr = joblib.load("model.pkl") # cargar "model.pkl"
     print ('Model loaded')
-    model_columns = joblib.load("model_columns.pkl") # Load "model_columns.pkl"
+    model_columns = joblib.load("model_columns.pkl") # cargar "model_columns.pkl"
     print ('Model columns loaded')
 
     app.run(port=port, debug=True)
