@@ -26,7 +26,7 @@ lr = LogisticRegression()
 lr.fit(x, y)
 
 # Save your model
-from sklearn.externals import joblib
+import joblib
 joblib.dump(lr, 'model.pkl')
 print("Model dumped!")
 
